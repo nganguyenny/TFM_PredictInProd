@@ -9,7 +9,7 @@ COPY model.joblib /model.joblib
 # the list of requirements
 COPY requirements.txt /requirements.txt
 
-#COPY /Users/nganguyen/code/gcp/data-lewagon-85edaa0a5c93.json /credentials.json
+COPY /Users/nganguyen/code/gcp/data-lewagon-85edaa0a5c93.json /credentials.json
 
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
